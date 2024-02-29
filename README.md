@@ -31,9 +31,13 @@ R = { +1 , if we come closer to the winning
        0 , if not
 
 ### Graphical Representation
+![image](https://github.com/gunasekhar159/mdp-representation/assets/95043391/da5768a4-9a05-4687-b135-3e602bedd96f)
 
 
 ## PYTHON REPRESENTATION:
+```
+Developed By: M.Gunasekhar.
+Reg No: 212221240014.
 P = {
     0:{
         0: [(0,1,1,True)],
@@ -49,10 +53,12 @@ P = {
     }
 }
 P
+```
 
 ## OUTPUT:
-Write your Python output here
+![image](https://github.com/gunasekhar159/mdp-representation/assets/95043391/3773e114-7960-43ce-b7cf-f308568a8abc)
+
 
 ## RESULT:
-Write your output here
+Thus the given real world problem is successfully represented in a MDP form .
 
