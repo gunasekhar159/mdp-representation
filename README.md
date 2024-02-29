@@ -1,33 +1,54 @@
 # MDP REPRESENTATION
 
 ## AIM:
-Write your aim here
+To represent any one real-world problem in MDP form.
 
 ## PROBLEM STATEMENT:
+To develop a game application the role of the agent is to promote if the level is cleared or depromote if the game is loss
 
 ### Problem Description
-Write your answer here
+
 
 ### State Space
-Write your answer here
+{A1,A2,A3}--> {0,1,2}
+A1--> LEVEL 1
+A2--> LEVEL 2 
+A3--> LEVEL 3
 
 ### Sample State
-Write your answer here
+A1--> 0 --> LEVEL 1
 
 ### Action Space
-Write your answer here
+{W,L}-->{0,1}
+W-->True
+L-->False
 
 ### Sample Action
-Write your answer here
+W--> 0 --> True
 
 ### Reward Function
-Write your answer here
+R = { +1 , if we come closer to the winning
+       0 , if not
 
 ### Graphical Representation
-Write your answer here
+
 
 ## PYTHON REPRESENTATION:
-Write your code here
+P = {
+    0:{
+        0: [(0,1,1,True)],
+        1: [(1.0,0,1.0,False)]
+    },
+    1:{
+        0: [(0,2,1,True)],
+        1: [(1,0,1,False)]
+    },
+    2:{
+        0: [(0,2,1,True)],
+        1: [(1,1,1,False)]
+    }
+}
+P
 
 ## OUTPUT:
 Write your Python output here
