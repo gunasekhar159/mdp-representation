@@ -31,8 +31,7 @@ R = { +1 , if we come closer to the winning
        0 , if not
 
 ### Graphical Representation
-![image](https://github.com/gunasekhar159/mdp-representation/assets/95043391/da5768a4-9a05-4687-b135-3e602bedd96f)
-
+![re 1](https://github.com/gunasekhar159/mdp-representation/assets/95043391/280e27ad-29c6-4deb-9a34-b32befbdf77b)
 
 ## PYTHON REPRESENTATION:
 ```
