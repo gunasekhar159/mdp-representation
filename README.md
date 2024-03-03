@@ -40,23 +40,23 @@ Developed By: M.Gunasekhar.
 Reg No: 212221240014.
 P = {
     0:{
-        0: [(0,1,1,True)],
-        1: [(1.0,0,1.0,False)]
+        0: [(0.77,0,0,True),(0.23,1,0,False)],
+        1: [(0.23,1,0,False),(0.77,0,0,True)]
     },
     1:{
-        0: [(0,2,1,True)],
-        1: [(1,0,1,False)]
+        0: [(0.77,1,0,False),(0.23,2,1,True)],
+        1: [(0.23,2,1,True),(0.77,1,0,False)]
     },
     2:{
-        0: [(0,2,1,True)],
-        1: [(1,1,1,False)]
+        0: [(0.77,2,1,True),(0.23,1,1,False)],
+        1: [(0.23,1,1,False),(0.77,2,1,True)]
     }
 }
-P
 ```
 
 ## OUTPUT:
-![image](https://github.com/gunasekhar159/mdp-representation/assets/95043391/3773e114-7960-43ce-b7cf-f308568a8abc)
+<img width="541" alt="rein exp=1" src="https://github.com/gunasekhar159/mdp-representation/assets/95043391/7b73c275-8508-470a-b589-c4e1d7aa2c20">
+
 
 
 ## RESULT:
